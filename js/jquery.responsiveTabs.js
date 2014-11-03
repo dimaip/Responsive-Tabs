@@ -260,7 +260,7 @@
      * @param {Event} e - The event that triggers the state change
      */
     ResponsiveTabs.prototype._setState = function() {
-        var $ul = $('ul', this.$element);
+        var $ul = $('ul.r-tabs-nav', this.$element);
         var oldState = this.state;
 
         // The state is based on the visibility of the tabs list
